@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: false
-title: "Introduction to Python"
+title: "Introduction to R"
 #header:
     #og_image: /assets/images/cross-val-logo-v4.jpg
     #overlay_image: /assets/images/joel-filipe-small-warmer.jpg
@@ -17,7 +17,7 @@ sidebar:
 
 
 
-Please [click here](https://forms.gle/5rFKQszkFpow8VWb9) to fill out the post-session feedback form here! We take your feedback into account in real time, so any changes we can make to help you learn better next week we will make!
+Please [click here](https://forms.gle/kCLfumVtisqh4ULK7) to fill out the post-session feedback form here! We take your feedback into account in real time, so any changes we can make to help you learn better next week we will make!
 
 
 After the session, there will be a static page here with a full summary of what was learned this week:
