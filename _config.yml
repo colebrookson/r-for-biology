@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Introduction to Programming in Python for Biology
+title: Introduction to Programming in R for Biology
 email: brookson@ualberta.ca
 description: >- # this means to ignore newlines until "baseurl:"
   Website for the Fall 2020 workshop series on Introduction to Programming
-  in Python for Biology, being run by Cole Brookson & Peter Thompson at the
+  in R for Biology, being run by Cole Brookson & Emma Atkinson at the
   University of Alberta, department of Biological Sciences.
 twitter_username: username
 github_username: colebrookson
