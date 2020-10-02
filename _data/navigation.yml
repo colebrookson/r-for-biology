@@ -13,7 +13,7 @@ sessions:
     children:
       - title: "Set up, Goals, Important Topics"
         url: /sessions/week1/
-      - title: "Basics of Object Oriented Programming (OOP)"
+      - title: "Object Oriented Programming (OOP)"
         url: /sessions/week1/
       - title: "Types, Assignment, Indexing"
         url: /sessions/week1/
@@ -29,7 +29,7 @@ sessions:
 
   - title: Week 3
     children:
-      - title: "RProjects, `here()`, Reproducible Science"
+      - title: "Reproducible Science"
         url: /sessions/week3/
       - title: "Data Cleaning Process"
         url: /sessions/week3/
