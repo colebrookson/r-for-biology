@@ -11,11 +11,11 @@ main:
 sessions:
   - title: Week 1
     children:
-      - title: "Introduction to this series"
+      - title: "Set up, Goals, Important Topics"
         url: /sessions/week1/
-      - title: "Object Oriented Programming (OOP)"
+      - title: "Basics of Object Oriented Programming (OOP)"
         url: /sessions/week1/
-      - title: "Basic programming skills"
+      - title: "Types, Assignment, Indexing"
         url: /sessions/week1/
 
   - title: Week 2
@@ -29,20 +29,20 @@ sessions:
 
   - title: Week 3
     children:
-      - title: "Programming process"
+      - title: "RProjects, `here()`, Reproducible Science"
         url: /sessions/week3/
-      - title: "Efficiency"
+      - title: "Data Cleaning Process"
         url: /sessions/week3/
-      - title: "Documentation"
+      - title: "How to Clean Data"
         url: /sessions/week3/
 
   - title: Week 4
     children:
-      - title: "Reading data"
+      - title: "BaseR Plotting"
         url: /sessions/week4/
-      - title: "Manipulating data"
+      - title: "Intro to `ggplot()`"
         url: /sessions/week4/
-      - title: "Data cleaning and QA/QC"
+      - title: "Cornerstone Plot Types"
         url: /sessions/week4/
 
   - title: Week 5
