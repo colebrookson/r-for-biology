@@ -62,7 +62,7 @@ that will act as a type of summary document for each session. This will ideally 
 
 #### Learning During a Pandemic
 
-This is uncharted territory. We are in the midst of, *ahem*, **a global pandemic** and that is making all of our teaching and learning
+This is uncharted territory. We are in the midst of, *ahem*, **a pandemic** and that is making all of our teaching and learning
 lives harder. We were hoping to be able to give this workshop series in-person, however that is obviously not in the cards, but we thought it was important
 to still provide the opportunity. In a bit of a mixed bag, we understand that this pandemic is likely the reason why some people who may want to learn R
 will not be able to take this workshop series while others *will* be able to, as everything is now online and thus we can accommodate more people!
