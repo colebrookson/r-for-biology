@@ -53,6 +53,21 @@ Linux
 
 In future weeks, we'll have a few videos for you to watch that have programming concepts or ideas presented, that we will then practice in our synchronous session. This week, we are just getting you set up to be ready to code, and we'll do everything else together in our session! Looking forward to seeing you all soon!
 
+### Introduction to This Series
+
+We want to give you an idea of what this series is for, and how to get the most out of it. Please watch this video where Emma will tell you about what you'll learn and (maybe more importantly!) what you **won't** learn.
+
+### Using RStudio
+
+In this video, Cole will give you a walkthrough of RStudio, so make sure you have R and RStudio downloaded, following the instructions above. Open RStudio and follow along on your own computer. Make a note of any questions you have and we can discuss them in the live session!
+
+{% include video id="zVZK2J9hMwA" provider="youtube" %}
+
+### OOP & Objects in R
+
+Object-Oriented Programming (OOP) is the lens through which we'll approach everything we do in R. Inherent to the principles of OOP is that everything in R is an object. In this video Cole will walk you through the basics of objects and types in R. This will become important later, and we will spent most of the live session practicing using different types of objects in R. Make a note of any questions you have and we can discuss them in the live session!
+
+{% include video id="Ytcr2Nr6lYU" provider="youtube" %}
 
 -----------------------------
 Please [click here](https://forms.gle/eu9LVRrNmfToRC2fA) to fill out the post-session feedback form here! We take your feedback into account in real time, so any changes we can make to help you learn better next week we will make!
