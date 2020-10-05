@@ -57,6 +57,8 @@ In future weeks, we'll have a few videos for you to watch that have programming 
 
 We want to give you an idea of what this series is for, and how to get the most out of it. Please watch this video where Emma will tell you about what you'll learn and (maybe more importantly!) what you **won't** learn.
 
+**THIS VIDEO WILL BE LIVE AFTER 12PM MT MONDAY, OCT. 05**
+
 {% include video id="iktRaJMu4gA" provider="youtube" %}
 
 ### Using RStudio
