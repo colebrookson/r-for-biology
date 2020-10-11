@@ -83,6 +83,12 @@ Please [click here](https://forms.gle/eu9LVRrNmfToRC2fA) to fill out the post-se
 
 <embed src="https://colebrookson.github.io/r-for-biology/sessions/week1_pdf.pdf" type="application/pdf" />
 
+### Reading Data Into R
+
+Here is a summary video of reading data into R and performing basic operations.
+
+{% include video id="HK5uXRjEers" provider="youtube" %}
+
 **At Home Practice:** If you want some more practice with the concepts we've worked on here, try the following problems. Keep in mind that there is usually more than one way to achieve a particular result, so there is no 'right' way, but try and use the concepts/principles we talked about in this session.
 
 1. Create a list of float values of length 10 called 'useful_list'
