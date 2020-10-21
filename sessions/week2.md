@@ -38,10 +38,9 @@ We were hoping to cover logical operators in our first week, but unfortunately w
 {% include video id="eveRidXanDg" provider="youtube" %}
 
 --------------------------------------------------------------------------------
-
-Please [click here](https://forms.gle/gqqyGk2bk55mF54N9) to fill out the post-session feedback form here! We take your feedback into account in real time, so any changes we can make to help you learn better next week we will make!
-
-
 # Content Summary
 
 <embed src="https://colebrookson.github.io/r-for-biology/sessions/week2_pdf.pdf" type="application/pdf" />
+
+
+Please [click here](https://forms.gle/gqqyGk2bk55mF54N9) to fill out the post-session feedback form here! We take your feedback into account in real time, so any changes we can make to help you learn better next week we will make!
