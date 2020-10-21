@@ -44,4 +44,4 @@ Please [click here](https://forms.gle/gqqyGk2bk55mF54N9) to fill out the post-se
 
 # Content Summary
 
-<embed src="https://colebrookson.github.io/r-for-biology/sessions/week2.pdf" type="application/pdf" />
+<embed src="https://colebrookson.github.io/r-for-biology/sessions/week2_pdf.pdf" type="application/pdf" />
