@@ -111,31 +111,31 @@ Good luck, and thanks for a great series!
 
   **NOTE**: while writing a for loop may not be the optimal way of performing this particular operation in R, populating a matrix or vector inside some sort of loop structure is a common programming task that you should know how to do. The interested reader is encouraged to check out the documentation on the `apply()` functions in R for the most efficient looping behavior in R. However, note that for loops are nearly ubiquitous in programming and all lower-level languages (C#, C++, Java etc.) and the majority of higher-level languages (Python, Julia, Ruby etc.) use for loops.
 
-    **Question 5. Plot your data! Create a point and line plot showing the mean mass of the urchins throughout the years in the dataset.**
+  **Question 5. Plot your data! Create a point and line plot showing the mean mass of the urchins throughout the years in the dataset.**
 
-    Here, what you will do is plot the average mass on the y-axis versus the year on the x-axis.
+  Here, what you will do is plot the average mass on the y-axis versus the year on the x-axis.
 
-    To get you started, we’ve written the code for you to create a summarized dataframe that has only the variables `year`, `Country`, `state_province`, and `Species`, along with a variable we created: `mean_mass` which is the mean mass from the `total_g` column.
+  To get you started, we’ve written the code for you to create a summarized dataframe that has only the variables `year`, `Country`, `state_province`, and `Species`, along with a variable we created: `mean_mass` which is the mean mass from the `total_g` column.
 
-    `summarized_data = do.call(rbind, by(final_df,
+  `summarized_data = do.call(rbind, by(final_df,
                                       final_df[, c('year', 'Country', 'state_province', 'Species')],
                       function(x) cbind(x[1, c('year', 'Country', 'state_province', 'Species')],
                                         mean_mass = mean(x$total_g, na.rm = TRUE))))`
 
-    Copy and paste this code into your script and run it ahead of doing anything else. This code will only work if you’ve named the dataframe (final_df) and the columns as we’ve noted above. Do not worry too much about what the specific parts of this code are doing, unfortunately it is slightly beyond the scope of these workshops. Just know that if you have done your data cleaning properly, it will result in a dataframe (called `summarized_data`) that has 47 rows and 5 variables. For the interested reader, it is suggested you take the time to walk through the code and try and figure out what each part is doing with help from the documentation.
+  Copy and paste this code into your script and run it ahead of doing anything else. This code will only work if you’ve named the dataframe (final_df) and the columns as we’ve noted above. Do not worry too much about what the specific parts of this code are doing, unfortunately it is slightly beyond the scope of these workshops. Just know that if you have done your data cleaning properly, it will result in a dataframe (called `summarized_data`) that has 47 rows and 5 variables. For the interested reader, it is suggested you take the time to walk through the code and try and figure out what each part is doing with help from the documentation.
 
-    Plot only the data for the species S. purpuratus in the country USA. (HINT: You’ll have to subset your dataframe `summarized_data` to do this.)
+  Plot only the data for the species S. purpuratus in the country USA. (HINT: You’ll have to subset your dataframe `summarized_data` to do this.)
 
-    Include the following components in your plot:
+  Include the following components in your plot:
 
-    - Separate the data by coloring two lines and the two sets of points according to the value of variable `state_province`
-      - Colour ‘California’ blue and ‘Oregon’ green
+  - Separate the data by coloring two lines and the two sets of points according to the value of variable `state_province`
+    - Colour ‘California’ blue and ‘Oregon’ green
 
-    - Employ the `theme_bw()` theme to make the plot look more professional
+  - Employ the `theme_bw()` theme to make the plot look more professional
 
-    - Label your x-axis “Sampling Year”, your y-axis “Mass of Organisms”, and the title “Mean Yearly Mass for all S. purpuratus Sampled in the USA”
+  - Label your x-axis “Sampling Year”, your y-axis “Mass of Organisms”, and the title “Mean Yearly Mass for all S. purpuratus Sampled in the USA”
 
-    - Include a legend for the colours, with the legend title “State”
+  - Include a legend for the colours, with the legend title “State”
 
   *BONUS:*
 
