@@ -26,3 +26,8 @@ Data cleaning can mean many things, but one indisputable fact is that the better
 Data cleaning is hardly ever a single event where you sit down at your computer and by the time you get up to get coffee the data are cleaned. It's often an iterative process that will likely be a few iterations to get right. Cleaning different kinds of data also employ slightly different methods. As a whole, data cleaning is truly a skill that you as a biologist would be well-advised to spend time on developing. Until we have computers that can clean all our data for us, it's a big part of our jobs. In this video Cole will define a bit more what 'clean' data look like, and expand on the process of cleaning data itself.
 
 {% include video id="f4539EwtqLQ" provider="youtube" %}
+
+--------------------------------------------------------------------------
+# Content Summary
+
+<embed src="https://colebrookson.github.io/r-for-biology/sessions/week3_pdf.pdf" type="application/pdf" />
