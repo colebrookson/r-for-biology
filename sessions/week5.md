@@ -99,13 +99,13 @@ Good luck, and thanks for a great series!
 
   - *HINT*: think **carefully** about how you want to achieve this before you start actually coding it. Solve the problem by first solving the domain problem using normal words and writing pseudocode, as is given here in the skeleton of the for loop, then try to code it. That is to say, it is good practice to break up the problem into domain-specific and computer-specific components. Think critically and identify what you want the answer to produce and the broad steps required to achieve that without worrying about the programming specifics. Then, translate your general answer into a code-specific answer. While this may seem redundant, it will help you immensely.
 
-          `For each unique value in column C {
+          for each unique value in column C {
               For each unique value in column D {
 
                 Use function from question 2) to populate matrix
 
               }
-            }`
+            }
 
   - Turn the resulting matrix into a dataframe with the row names as the species names and the column names as the state/province names
 
@@ -117,10 +117,10 @@ Good luck, and thanks for a great series!
 
   To get you started, we’ve written the code for you to create a summarized dataframe that has only the variables `year`, `Country`, `state_province`, and `Species`, along with a variable we created: `mean_mass` which is the mean mass from the `total_g` column.
 
-                    ``summarized_data = do.call(rbind, by(final_df,
+                    summarized_data = do.call(rbind, by(final_df,
                                                           final_df[, c('year', 'Country', 'state_province', 'Species')],
                                         function(x) cbind(x[1, c('year', 'Country', 'state_province', 'Species')],
-                                                          mean_mass = mean(x$total_g, na.rm = TRUE))))``
+                                                          mean_mass = mean(x$total_g, na.rm = TRUE))))
 
   Copy and paste this code into your script and run it ahead of doing anything else. This code will only work if you’ve named the dataframe (final_df) and the columns as we’ve noted above. Do not worry too much about what the specific parts of this code are doing, unfortunately it is slightly beyond the scope of these workshops. Just know that if you have done your data cleaning properly, it will result in a dataframe (called `summarized_data`) that has 47 rows and 5 variables. For the interested reader, it is suggested you take the time to walk through the code and try and figure out what each part is doing with help from the documentation.
 
