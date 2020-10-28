@@ -117,10 +117,10 @@ Good luck, and thanks for a great series!
 
   To get you started, we’ve written the code for you to create a summarized dataframe that has only the variables `year`, `Country`, `state_province`, and `Species`, along with a variable we created: `mean_mass` which is the mean mass from the `total_g` column.
 
-  `summarized_data = do.call(rbind, by(final_df,
-                                      final_df[, c('year', 'Country', 'state_province', 'Species')],
-                      function(x) cbind(x[1, c('year', 'Country', 'state_province', 'Species')],
-                                        mean_mass = mean(x$total_g, na.rm = TRUE))))`
+                    ``summarized_data = do.call(rbind, by(final_df,
+                                                          final_df[, c('year', 'Country', 'state_province', 'Species')],
+                                        function(x) cbind(x[1, c('year', 'Country', 'state_province', 'Species')],
+                                                          mean_mass = mean(x$total_g, na.rm = TRUE))))``
 
   Copy and paste this code into your script and run it ahead of doing anything else. This code will only work if you’ve named the dataframe (final_df) and the columns as we’ve noted above. Do not worry too much about what the specific parts of this code are doing, unfortunately it is slightly beyond the scope of these workshops. Just know that if you have done your data cleaning properly, it will result in a dataframe (called `summarized_data`) that has 47 rows and 5 variables. For the interested reader, it is suggested you take the time to walk through the code and try and figure out what each part is doing with help from the documentation.
 
