@@ -51,7 +51,7 @@ Good luck, and thanks for a great series!
     `food.vol..ml.` → `food_vol_ml`
     `jaw.cm` → `jaw_cm`
 
-    **NOTE**: it is **bad** practice to include variables whose names have both capitals as the first letter, and no capitals in the first letter. However, you will come across much more egregious sins in other people’s data. We have neglected to change them all to one type, as it is common you will work with datasets that do not follow best practices.
+  **NOTE**: it is **bad** practice to include variables whose names have both capitals as the first letter, and no capitals in the first letter. However, you will come across much more egregious sins in other people’s data. We have neglected to change them all to one type, as it is common you will work with datasets that do not follow best practices.
 
   c) What is the data type of the 4th and 7th columns respectively?
 
@@ -85,19 +85,19 @@ Good luck, and thanks for a great series!
 
   **Question 4. Create a dataframe called ‘loop_df’ that lists the mean total mass of the urchins of each species in each state/province.**
 
-    **NOTE**: This is the hardest question in this exercise set! Don’t be discouraged if the answer eludes you at first. The goal here is to get you thinking like a programmer and solving problems you may not have considered before, and so we are trying to push you out of your comfort zone a little bit. Embrace it, challenges are fun.
+  **NOTE**: This is the hardest question in this exercise set! Don’t be discouraged if the answer eludes you at first. The goal here is to get you thinking like a programmer and solving problems you may not have considered before, and so we are trying to push you out of your comfort zone a little bit. Embrace it, challenges are fun.
 
-    To do this, build a nested for loop to populate a matrix with the mean mass for each species and each province/state, and then change the matrix into a dataframe. Make use of your function from the last question. For this question you will write a nested for loop (that is, a loop within a loop) that will populate a matrix via each iteration of the loop. A more detailed outline of the problem follows:
+  To do this, build a nested for loop to populate a matrix with the mean mass for each species and each province/state, and then change the matrix into a dataframe. Make use of your function from the last question. For this question you will write a nested for loop (that is, a loop within a loop) that will populate a matrix via each iteration of the loop. A more detailed outline of the problem follows:
 
-    - Initialize a matrix with the same number of rows as the number of species, and the same number of columns as the number of states/provinces-- NOTE: this is a good way to speed up for loops by pre-generating your data structure outside the loop
+  - Initialize a matrix with the same number of rows as the number of species, and the same number of columns as the number of states/provinces-- NOTE: this is a good way to speed up for loops by pre-generating your data structure outside the loop
 
-    - Check that column `state_province` is of type character and column `Species` is of type character
+  - Check that column `state_province` is of type character and column `Species` is of type character
 
-    - Write a for loop to find each unique combination of column `state_province` and column `Species`. Make use of your function from the last question to calculate the mean mass (`total_g`) each unique combination, and put each value at the correct location in the matrix.
+  - Write a for loop to find each unique combination of column `state_province` and column `Species`. Make use of your function from the last question to calculate the mean mass (`total_g`) each unique combination, and put each value at the correct location in the matrix.
 
-    - When building the matrix, ensure the species are the row values and the states/provinces are the column values
+  - When building the matrix, ensure the species are the row values and the states/provinces are the column values
 
-    - *HINT*: think **carefully** about how you want to achieve this before you start actually coding it. Solve the problem by first solving the domain problem using normal words and writing pseudocode, as is given here in the skeleton of the for loop, then try to code it. That is to say, it is good practice to break up the problem into domain-specific and computer-specific components. Think critically and identify what you want the answer to produce and the broad steps required to achieve that without worrying about the programming specifics. Then, translate your general answer into a code-specific answer. While this may seem redundant, it will help you immensely.
+  - *HINT*: think **carefully** about how you want to achieve this before you start actually coding it. Solve the problem by first solving the domain problem using normal words and writing pseudocode, as is given here in the skeleton of the for loop, then try to code it. That is to say, it is good practice to break up the problem into domain-specific and computer-specific components. Think critically and identify what you want the answer to produce and the broad steps required to achieve that without worrying about the programming specifics. Then, translate your general answer into a code-specific answer. While this may seem redundant, it will help you immensely.
 
           `For each unique value in column C {
               For each unique value in column D {
@@ -107,9 +107,9 @@ Good luck, and thanks for a great series!
               }
             }`
 
-    - Turn the resulting matrix into a dataframe with the row names as the species names and the column names as the state/province names
+  - Turn the resulting matrix into a dataframe with the row names as the species names and the column names as the state/province names
 
-    **NOTE**: while writing a for loop may not be the optimal way of performing this particular operation in R, populating a matrix or vector inside some sort of loop structure is a common programming task that you should know how to do. The interested reader is encouraged to check out the documentation on the `apply()` functions in R for the most efficient looping behavior in R. However, note that for loops are nearly ubiquitous in programming and all lower-level languages (C#, C++, Java etc.) and the majority of higher-level languages (Python, Julia, Ruby etc.) use for loops.
+  **NOTE**: while writing a for loop may not be the optimal way of performing this particular operation in R, populating a matrix or vector inside some sort of loop structure is a common programming task that you should know how to do. The interested reader is encouraged to check out the documentation on the `apply()` functions in R for the most efficient looping behavior in R. However, note that for loops are nearly ubiquitous in programming and all lower-level languages (C#, C++, Java etc.) and the majority of higher-level languages (Python, Julia, Ruby etc.) use for loops.
 
     **Question 5. Plot your data! Create a point and line plot showing the mean mass of the urchins throughout the years in the dataset.**
 
