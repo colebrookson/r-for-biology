@@ -27,7 +27,7 @@ You can also reach out to us via the (contact)[/Contact/] tab and we can try to 
 
 Good luck, and thanks for a great series!
 
-  1. Perform basic data manipulation tasks.
+  **Question 1. Perform basic data manipulation tasks.**
 
   Note that we didn’t go over how to rename columns in our session on data management, as we already had a lot to cover, but this is a common task. We’ll briefly cover it here, but this is also a very google-able problem. To rename a column, we use the a familiar structure. The following function will do the trick:
 
@@ -61,7 +61,7 @@ Good luck, and thanks for a great series!
 
   f) What is the value of the cell in the 13th column in the 38th row?
 
-  2. Clean data and remove obvious outliers
+  **Question 2. Clean data and remove obvious outliers**
 
   Here, we will follow a series of data manipulation steps, including making a new column and using our domain knowledge to remove outliers. A reminder that removing outliers is bad practice when those outliers constitute real data. However, thinking critically about the data at hand can allow us to remove values that have no possible place in biological reality, and thus can only occur as a result of human error. It is almost always best practice to remove values we know are erroneous on the part of the human collecting the data.
 
@@ -75,7 +75,7 @@ Good luck, and thanks for a great series!
 
   e) Subset data to remove the outlier(s) from the data.
 
-  3. Write a function called `get_mean_size()`to calculate the mean total mass of the urchins of a particular species in particular state or province:
+  **Question 3. Write a function called `get_mean_size()`to calculate the mean total mass of the urchins of a particular species in particular state or province:**
 
   - This function should have arguments for the state/province, the species, and the dataframe to perform the function on
 
@@ -83,9 +83,9 @@ Good luck, and thanks for a great series!
 
   - The function should return the mean `total_g` column for the subset dataframe
 
-  4. Create a dataframe called ‘loop_df’ that lists the mean total mass of the urchins of each species in each state/province.
+  **Question 4. Create a dataframe called ‘loop_df’ that lists the mean total mass of the urchins of each species in each state/province.**
 
-    **NOTE**: This is the hardest question in this exercise set! Don’t be discouraged if the answer eludes you at first. The goal here is to get you thinking like a programmer and solving problems you may not have considered before, and so we are trying to push you out of your comfort zone a little bit. Embrace it, challenges are fun :)
+    **NOTE**: This is the hardest question in this exercise set! Don’t be discouraged if the answer eludes you at first. The goal here is to get you thinking like a programmer and solving problems you may not have considered before, and so we are trying to push you out of your comfort zone a little bit. Embrace it, challenges are fun.
 
     To do this, build a nested for loop to populate a matrix with the mean mass for each species and each province/state, and then change the matrix into a dataframe. Make use of your function from the last question. For this question you will write a nested for loop (that is, a loop within a loop) that will populate a matrix via each iteration of the loop. A more detailed outline of the problem follows:
 
@@ -111,7 +111,7 @@ Good luck, and thanks for a great series!
 
     **NOTE**: while writing a for loop may not be the optimal way of performing this particular operation in R, populating a matrix or vector inside some sort of loop structure is a common programming task that you should know how to do. The interested reader is encouraged to check out the documentation on the `apply()` functions in R for the most efficient looping behavior in R. However, note that for loops are nearly ubiquitous in programming and all lower-level languages (C#, C++, Java etc.) and the majority of higher-level languages (Python, Julia, Ruby etc.) use for loops.
 
-    5. Plot your data! Create a point and line plot showing the mean mass of the urchins throughout the years in the dataset.
+    **Question 5. Plot your data! Create a point and line plot showing the mean mass of the urchins throughout the years in the dataset.**
 
     Here, what you will do is plot the average mass on the y-axis versus the year on the x-axis.
 
