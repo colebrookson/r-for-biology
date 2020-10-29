@@ -23,7 +23,7 @@ Below are the questions as well as a set of answers that don’t tell you how to
 
 By Sunday, Nov. 08, there will be a series of videos posted here on the website which walk you through how to do each question in detail. We encourage you to try all the problems yourself beforehand, and then use the videos to either double check your approach or if you couldn’t solve the problem.
 
-You can also reach out to us via the (contact)[/Contact/] tab and we can try to help you via email.
+You can also reach out to us via the [contact](/Contact/) tab and we can try to help you via email.
 
 Good luck, and thanks for a great series!
 
