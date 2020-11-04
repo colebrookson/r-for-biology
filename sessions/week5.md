@@ -15,6 +15,8 @@ sidebar:
 
 ## Week 5
 
+**ZOOM LINK:** [https://ualberta-ca.zoom.us/j/97755262261](https://ualberta-ca.zoom.us/j/97755262261)
+
 Well, you made it! This is the last session of the workshop series. We would very much have liked to do this workshop especially in person, as getting feedback/help in person is by far more useful. However, it wasn’t to be for us this year, so we’ll be offering this final exercise work-sheet as a remote delivery.
 
 You will have received a dataset that goes along with this set of questions. This is a novel dataset that we haven’t worked with yet in previous sessions. Using this dataset, you can walk through the below questions that will let you apply what you’ve learned in class to somewhat novel problems. Obviously there is no requirement that you do this, but practicing coding in R is the only way you will truly learn the language. To help you through this set of questions, our live session on Nov. 04 will be a drop-in help session. We encourage you to get started on these questions as soon as you can after Session 4 on plotting is wrapped up.
