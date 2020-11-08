@@ -25,3 +25,8 @@ We won't dedicate much time to the discussion of visualization more theoreticall
 
 In this video Cole will discuss some of the high level keys to good data visualization that we would like you to keep in mind as we go through the practical aspects of coding your visualization in R.
 {% include video id="NhQesXEtqGE" provider="youtube" %}
+
+--------------------------------------------------------------------------
+# Content Summary
+
+<embed src="https://colebrookson.github.io/r-for-biology/sessions/week4_pdf.pdf" type="application/pdf" />
