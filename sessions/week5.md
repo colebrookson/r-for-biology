@@ -143,7 +143,7 @@ Good luck, and thanks for a great series!
 
   If you want, try and re-create the plot above, but do it using a function that takes an argument for the country and the species to use in the plot. *EXTRA BONUS*: If you’re feeling **super** adventurous, try and see if you can alter your plotting code such that the label of the country and the species name in the title of the plot change along with the arguments of the function.
 
-# Answers to Questions
+# Answers Videos
 
 ## Question 1
 {% include video id="KZ_DyHLSV_I" provider="youtube" %}
