@@ -40,6 +40,8 @@ If you don’t have R and RStudio installed
 If you already have R and RStudio installed
 * Open RStudio, and click on “Help” > “Check for updates”. If a new version is available, quit RStudio, and download the latest version for RStudio.
 * To check the version of R you are using, start RStudio and the first thing that appears on the terminal indicates the version of R you are running. Alternatively, you can type sessionInfo(), which will also display which version of R you are running. Go on the CRAN website and check whether a more recent version is available. If so, please download and install it.
+
+If you don’t have R and RStudio installed
 * Download R from the [CRAN website](http://cran.r-project.org/bin/macosx/)
 * Select the .pkg file for the latest R version
 * Double click on the downloaded file to install R
