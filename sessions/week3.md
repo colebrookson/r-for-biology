@@ -34,5 +34,5 @@ Data cleaning is hardly ever a single event where you sit down at your computer 
 
 # Data to Follow Along
 
-<embed src="https://colebrookson.github.io/r-for-biology/sessions/week_three_data.csv" type="application/csv" />
+[week_three_data.csv](https://github.com/colebrookson/r-for-biology/files/7541521/week_three_data.csv)
 
