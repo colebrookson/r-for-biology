@@ -21,6 +21,9 @@ Well, you made it! This is the last session of the workshop series. We would ver
 
 You will have received a dataset that goes along with this set of questions. This is a novel dataset that we haven’t worked with yet in previous sessions. Using this dataset, you can walk through the below questions that will let you apply what you’ve learned in class to somewhat novel problems. Obviously there is no requirement that you do this, but practicing coding in R is the only way you will truly learn the language. To help you through this set of questions, our live session on Nov. 04 will be a drop-in help session. We encourage you to get started on these questions as soon as you can after Session 4 on plotting is wrapped up.
 
+[Click here to download the data for this assignment](https://github.com/colebrookson/r-for-biology/files/7541521/week_three_data.csv)
+
+
 Below are the questions as well as a set of answers that don’t tell you how to do the problem, but do let you check if you’re on the right track. Once you think you’ve completed the question, check your answer against the answer key. Set yourself a frustration threshold, and if you cannot get the right answer, only work on the problem until you’ve reached your threshold. If you can’t get the problem (some of them are meant to be tricky, because a lot of real-world data problems ARE tricky), then bring your problem to the live session next week and both Cole & Emma will be available to help you.
 
 By Sunday, Nov. 08, there will be a series of videos posted here on the website which walk you through how to do each question in detail. We encourage you to try all the problems yourself beforehand, and then use the videos to either double check your approach or if you couldn’t solve the problem.
